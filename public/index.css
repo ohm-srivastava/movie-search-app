@@ -1,0 +1,122 @@
+
+html {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5E6472;
+
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+small {
+    font-size: 1.2rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width:1000px;
+    padding: 40px;
+    min-width: 1000px;
+    margin-bottom: 500px;
+
+}
+
+.title {
+    font-size: 4.4rem;
+    text-align: center;
+    font-family: Consolas;
+    justify-content: center;
+    color: #F5F5F5;
+
+}
+.form {
+    display: grid;
+    min-width: 1000px;
+
+}
+
+.label {
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+}
+
+.input{
+    padding: 0.5rem 2rem;
+    line-height: 3rem;
+    border-radius: 40px;
+    border: 5px solid #ddd;
+    margin-bottom: 6px;
+
+}
+.button {
+    display:inline-grid;
+    background-color: #FF8F85;
+    color: white;
+    padding: 1.5rem 2rem;
+    border: 1px solid rgba(0,0,0,0.75);
+    border-radius: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.button:hover {
+    background-color: cornflowerblue;
+}
+
+@media (min-width:786px){
+    .form {
+        grid-template-columns: 3fr 1fr 0fr;
+        grid-gap: 1rem;
+        align-items: center;
+    }
+
+    .input {
+        margin-bottom: 0;
+    }
+}
+
+.card--list {
+    margin-top: 1.5rem;
+    outline: #5E6472;
+}
+
+.card--title {
+    font-size: 24px;
+    font-family: Georgia;
+}
+.card--content {
+    font-family: "georgia";
+
+
+
+}
+.card--image {
+    display:inline;
+    border-radius: 30px;
+    float: left;
+    margin-right: 30px;
+}
+.card{
+    padding: 2rem 4rem;
+    border-radius: 30px;
+    box-shadow: 1px 1px 35px rgba(0,0,0,0.25);
+    margin-bottom: 2rem;
+    background-color: #FAF3DD;
+    grid-template-columns: 2fr 3fr 0fr;
+    float: left;
+    min-width: 1000px;
+}
