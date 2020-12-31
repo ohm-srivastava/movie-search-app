@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447fcec4-ca4f-4bb2-b9aa-0421204efb7c" name="Default Changelist" comment="name css">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,7 @@
       <updated>1609311520633</updated>
       <workItem from="1609311521697" duration="1278000" />
       <workItem from="1609451799554" duration="693000" />
-      <workItem from="1609452931770" duration="580000" />
+      <workItem from="1609452931770" duration="854000" />
     </task>
     <servers />
   </component>
