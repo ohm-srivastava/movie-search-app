@@ -37,8 +37,18 @@ small {
     font-family: Consolas;
     justify-content: center;
     color: #F5F5F5;
+    outline: #282c34;
 
 }
+.name {
+    font-size: 3rem;
+    text-align: center;
+    font-family: Consolas;
+    justify-content: center;
+    color: #F5F5F5;
+    outline: #282c34;
+}
+
 .form {
     display: grid;
     min-width: 1000px;
