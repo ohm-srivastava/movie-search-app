@@ -7,6 +7,7 @@ class Main extends React.Component {
         return (
             <div className="container">
                 <h1 className="title">Movie Search</h1>
+                <h3>Made by Ohm Srivastava using the TMDB API</h3>
                 <MovieSearch />
             </div>
         );
