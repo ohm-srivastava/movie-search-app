@@ -37,7 +37,7 @@ small {
     font-family: Consolas;
     justify-content: center;
     color: #F5F5F5;
-    -webkit-text-stroke: 4px #282c34;
+    -webkit-text-stroke: 1px #282c34;
 
 
 }
@@ -47,7 +47,7 @@ small {
     font-family: Consolas;
     justify-content: center;
     color: #F5F5F5;
-    -webkit-text-stroke: 4px #282c34;
+    -webkit-text-stroke: 1px #282c34;
 }
 
 .form {
