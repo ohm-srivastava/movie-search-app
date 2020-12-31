@@ -37,8 +37,8 @@ small {
     font-family: Consolas;
     justify-content: center;
     color: #F5F5F5;
-    outline: #282c34;
-    outline-width: 10px;
+    -webkit-text-stroke: 4px #282c34;
+
 
 }
 .nameline {
@@ -47,8 +47,7 @@ small {
     font-family: Consolas;
     justify-content: center;
     color: #F5F5F5;
-    outline: #282c34;
-    outline-width: 10px;
+    -webkit-text-stroke: 4px #282c34;
 }
 
 .form {
