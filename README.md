@@ -1,6 +1,6 @@
 This is a Project created using Create-react-app
 
-The project is hosted at ohm-srivastava.github.io/movie-search-app Hop over and take a look!
+The project is hosted at ohm-srivastava.github.io/movie-search-app, Hop over and take a look!
 
 The MovieSearch.js file grabs data from the TMDB API and puts the information into a <div> that is rendered using React on the frontend, styled using basic css. The file is clearly commented, to make it easy to understand each line of the code. 
   
